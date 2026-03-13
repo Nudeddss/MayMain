@@ -2185,7 +2185,7 @@ local Library do
         },
     }
 
-    Library.Theme = TableClone(Themes["Preset"])
+    Library.Theme = TableClone(Themes["Aqua"])
     Library.Themes = Themes
 
     if not isfile(Library.Folders.Directory .. "/AutoLoadConfig (do not modify this).json") then
