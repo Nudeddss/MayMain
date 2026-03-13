@@ -2136,10 +2136,10 @@ local Library do
             ["Background"] = FromRGB(16, 18, 21),
             ["Inline"] = FromRGB(22, 25, 29),
             ["Shadow"] = FromRGB(0, 0, 0),
-            ["Text"] = FromRGB(255, 255, 255),
-            ["Image"] = FromRGB(255, 255, 255),
+            ["Text"] = FromRGB(21, 0, 235),
+            ["Image"] = FromRGB(21, 0, 235),
             ["Dark Gradient"] = FromRGB(211, 211, 211),
-            ["Inactive Text"] = FromRGB(185, 185, 185),
+            ["Inactive Text"] = FromRGB(10, 1, 105),
             ["Element"] = FromRGB(34, 39, 45),
             ["Accent"] = FromRGB(196, 231, 255),
             ["Border"] = FromRGB(32, 36, 42)
@@ -2185,7 +2185,7 @@ local Library do
         },
     }
 
-    Library.Theme = TableClone(Themes["Aqua"])
+    Library.Theme = TableClone(Themes["Preset"])
     Library.Themes = Themes
 
     if not isfile(Library.Folders.Directory .. "/AutoLoadConfig (do not modify this).json") then
